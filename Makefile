@@ -115,7 +115,7 @@ endif
 # Vars
 ############################################################################
 
-PLATFORMS ?= linux/amd64,linux/arm64
+PLATFORMS ?= linux/amd64,linux/arm64,linux/s390x
 
 binaries := spire-server spire-agent oidc-discovery-provider
 
