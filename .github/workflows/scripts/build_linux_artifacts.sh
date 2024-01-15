@@ -81,3 +81,4 @@ command -v regctl >/dev/null 2>&1 || { echo -e "The regctl cli is required to ru
 
 build_artifact amd64
 build_artifact arm64
+build_artifact s390x
